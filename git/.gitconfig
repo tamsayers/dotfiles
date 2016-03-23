@@ -1,0 +1,12 @@
+[alias]
+	st = status
+	p  = push
+        u  = pull
+	ci = commit -m
+	ad = add -p
+	co = checkout
+[push]
+	default = simple
+[user]
+	name = tam
+	email = tam.sayers@dwp.gsi.gov.uk
