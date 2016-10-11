@@ -7,6 +7,3 @@
 	co = checkout
 [push]
 	default = simple
-[user]
-	name = tam
-	email = tam.sayers@dwp.gsi.gov.uk
