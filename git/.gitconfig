@@ -1,9 +1,13 @@
 [alias]
-	st = status
-	p  = push
-        u  = pull
-	ci = commit -m
-	ad = add -p
-	co = checkout
+	branch-name = rev-parse --abbrev-ref HEAD
+	st  = status
+	pf  = !git push -f origin $(git branch-name)
+	p   = push
+        ur  = pull --rebase
+        u   = pull
+	ci  = commit -m
+	bom = branch -u origin/master
+	ad  = add -p
+	co  = checkout
 [push]
 	default = simple
