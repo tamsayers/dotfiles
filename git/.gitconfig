@@ -3,7 +3,7 @@
 	st  = status
 	pf  = !git push -f origin $(git branch-name)
 	p   = push
-        ur  = pull --rebase
+        ur  = pull --rebase=preserve
         u   = pull
 	ci  = commit -m
 	bom = branch -u origin/master
